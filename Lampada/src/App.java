@@ -1,5 +1,8 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        Lampada lampada = new Lampada();
+
+        lampada.Ligar();
+        System.out.printf("Está ligada? %s\n", lampada.IsLigada());
     }
 }
